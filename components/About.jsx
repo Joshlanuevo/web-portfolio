@@ -28,7 +28,7 @@ const About = () => {
             <div className="text-4xl font-semibold pt-10">{userData.about.headerOne}</div>
             <div>
                 <h3 className="text-3xl font-bold">{userData.about.headerTwo}</h3>
-                <p className='text-gray-400'>{userData.about.description}</p>
+                <p className='text-gray-500'>{userData.about.description}</p>
             </div>
         </div>
     </div>
