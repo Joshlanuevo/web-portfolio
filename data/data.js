@@ -5,7 +5,11 @@ const userData = {
     email: "lanuevo68@gmail.com",
     phone: "+63 921 457 7200",
     address: "68 Agudo Street. Mandaluyong City",
-    about: [],
+    about: {
+        headerOne: "Hi! I'm a Web Developer focuses on developing solutions using JavasScript, React and NodeJS/Express",
+        headerTwo: "Academic Qualification",
+        description: "Studies Bachelor of Science in Computer Engineering at Rizal Technological University Boni Campus Mandaluyong - 2019-2023",
+    },
     projects: [],
     socialLinks: [],
 }
