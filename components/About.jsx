@@ -38,9 +38,15 @@ const About = () => {
             }}
             className='space-y-10 px-0 md:px-10'
         >
-            <div className="text-4xl font-semibold pt-10">{userData.about.header}</div>
-            <div>
-                <p className='text-gray-500'>{userData.about.description}</p>
+            <div className="text-4xl font-bold pt-10">{userData.about.header}</div>
+            <div className='text-gray-500'>
+                {userData.about.description?.map((desc, idx) => (
+                    <p 
+                        key={idx} 
+                        className='text-xl text-gray-700 mb-4 dark:text-gray-300'>
+                        {desc}
+                    </p>
+                ))}
             </div>
         </motion.div>
     </div>
