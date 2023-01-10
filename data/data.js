@@ -6,8 +6,7 @@ const userData = {
     phone: "+63 921 457 7200",
     address: "68 Agudo Street. Mandaluyong City",
     about: {
-        headerOne: "Hi! I'm a Web Developer focuses on developing solutions using JavasScript, React and NodeJS/Express",
-        headerTwo: "Academic Qualification",
+        header: "Hi! I'm a Web Developer focuses on developing solutions using JavasScript, React and NodeJS/Express",
         description: "Studies Bachelor of Science in Computer Engineering at Rizal Technological University Boni Campus Mandaluyong - 2019-2023",
     },
     projects: [],
