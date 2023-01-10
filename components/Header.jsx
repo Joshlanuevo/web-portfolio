@@ -58,7 +58,7 @@ const Header = () => {
                     bgColor='transparent'
                 />
                 <p className='uppercase font-semibold hidden md:inline-flex text-sm text-gray-500 hover:text-[#F7AB0A]/40'>
-                    Get in touch
+                    Contact me
                 </p>
             </motion.div>
         </Link>
