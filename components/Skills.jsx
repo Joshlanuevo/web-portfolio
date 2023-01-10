@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
@@ -10,20 +9,7 @@ const Skills = () => {
                 Skills
             </h3>
             <hr className="relative top-20 w-64 h-1 mt-20 bg-gray-200 border-0 rounded dark:bg-gray-700" />
-            <motion.div
-                initial={{
-                    x: -200,
-                    opacity: 0
-                }}
-                transition={{
-                    duration: 1
-                }}
-                whileInView={{ 
-                    opacity: 1,
-                    x: 0 
-                }} 
-                className='div-logo-group flex flex-wrap justify-center mt-20 mb-3 p-5'
-            >
+            <div className='div-logo-group flex flex-wrap justify-center mt-20 mb-3 p-5'>
                 <div className='div-category-frontend mt-5 roounded mx-3 p-3 bg-[#EAEAEA] drop-shadow-md'>
                     <div>Frontend</div>
                 </div>
@@ -33,21 +19,8 @@ const Skills = () => {
                 <div className='div-category-others mt-5 rounded mx-3 p-3 bg-[#EAEAEA] drop-shadow-md'>
                     <div>Others</div>
                 </div>
-            </motion.div>
-            <motion.div 
-                initial={{
-                    x: 200,
-                    opacity: 0
-                }}
-                transition={{
-                    duration: 1
-                }}
-                whileInView={{ 
-                    opacity: 1,
-                    x: 0 
-                }}
-                className='div-logo-group flex flex-wrap justify-center mt-4 pb-5'
-            >
+            </div>
+            <div className='div-logo-group flex flex-wrap justify-center mt-4 pb-5'>
                 <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
                     <img src='https://cdn.worldvectorlogo.com/logos/html-1.svg' alt='' className='box-picture' />
                     <div className="logo-description">HTML</div>
@@ -104,10 +77,10 @@ const Skills = () => {
                     <img src='https://cdn.worldvectorlogo.com/logos/figma-5.svg' alt='' className='box-picture' />
                     <div className="logo-description">Figma</div>
                 </div>
-            </motion.div>
+            </div>
         </div>
     </div>
   )
 }
 
-export default Skills
+export default Skills;
