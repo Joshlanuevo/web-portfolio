@@ -7,7 +7,10 @@ const userData = {
     address: "68 Agudo Street. Mandaluyong City",
     about: {
         header: "Hi! I'm a Web Developer focuses on developing solutions using JavasScript, React and NodeJS/Express",
-        description: "Studies Bachelor of Science in Computer Engineering at Rizal Technological University Boni Campus Mandaluyong - 2019-2023",
+        description: [
+            `I started my journey in Web Development year 2021, I'm not into programming at that time so it was out of curiosity I googled what programming does and Web Development took my attention since the Web browser is too powerful because you don't need to download anything just to open the application you just go to your web browser and use the application there, you can use it wherever you go you only just need is the internet.`,
+            `When I'm not coding, I enjoy watching anime series like My Hero Academia, Demon Slayer, Jujutsu Kaisen, and many more. Also, I enjoy playing online games with my friends, and sometimes when I get bored I sketch or draw what I like, such as anime characters or anything.`
+        ],
     },
     projects: [],
     socialLinks: [],
