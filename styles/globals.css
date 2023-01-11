@@ -9,6 +9,13 @@
     }
 }
 
+@media (max-width: 768px) {
+    .about-desc {
+        font-size: 10px;
+        line-height: normal;
+    }
+}
+
 @media (min-width: 768px) {
     .skills-wrapper {
       width: 75%;
@@ -28,28 +35,15 @@
     border-left: 0.3rem solid #6358ff;
 }
 
-.div-logo-group > div.div-category-others {
-    border-left: 0.3rem solid #B2B2B2;
-}
-
 .div-logo-group > div > img.box-picture {
     width: 75px;
     height: 75px;
 }
 
-/* .logo-group-frontend {
-    border-left: 0.3rem solid #ffee58;
+.card {
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #EAEAEA;
 }
-
-.logo-group-backend {
-    border-left: 0.3rem solid #6358ff;
-}
-
-.logo-group-others {
-    border-left: 0.3rem solid #D8D8D8;
-}
-
-.frontend-skill {
-    border-left: 0.3rem solid #ffee58;
-} */
 
