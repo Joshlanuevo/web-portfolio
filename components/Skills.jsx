@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className="bg-white h-screen relative text-center px-1 py-5">
+    <div className="bg-white relative text-center px-1 py-5">
         <div className="skill-wrapper relative flex flex-col text-center justify-center items-center mb-10">
             <h3 className='absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl text-center 
             flex flex-col md:text-left md:flex-row px-10 justify-evenly mx-auto items-center'>
