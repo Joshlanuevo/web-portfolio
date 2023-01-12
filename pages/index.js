@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import About from '../components/About';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -37,10 +40,33 @@ export default function Home() {
         <section id='projects' className='snap-start'>
           <Projects />
         </section>
+
+        {/* Contact */}
+        <section id='contact' className='snap-start'>
+          <Contact />
+        </section>
+
+        {/* Footer */}
+        <section id='footer' className='snap-start'>
+          <Footer />
+        </section>
+
+        <Link href="#hero">
+          <footer className='relative bottom-12 w-full cursor-pointer h-0'> 
+            <div className='flex justify-center items-center animate-bounce'>
+              <img 
+                className='h-8 w-8 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+                src="https://www.pngfind.com/pngs/m/16-161912_up-arrow-transparent-images-double-up-arrow-icon.png" 
+                alt="" 
+              />
+            </div>
+          </footer>
+        </Link>
       </div>
     </div>
   )
 }
+
 
 
 
