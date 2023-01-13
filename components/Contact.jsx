@@ -26,6 +26,7 @@ const Contact = () => {
                     </p>
                     <p className="mt-10">lanuevo68@gmail.com</p>
                     <p>+63 9214577200</p>
+                    <button className='p-5 mt-5 uppercase bg-[#000000] text-white rounded text-sm hover:bg-slate-700'>Download my resume</button>
                 </header>
             </div>
         </div>
