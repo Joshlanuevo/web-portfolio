@@ -2,10 +2,12 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { SocialIcon } from 'react-social-icons';
+import Image from 'next/image';
 
 import userData from '../data/data'
 import BackgroundCirle from './BackgroundCirle';
 import BackgroundParticles from './BackgroundParticles';
+import HeroImg from '../public/2x2-main.png'
 
 const Hero = () => {
   const router = useRouter();
@@ -28,8 +30,8 @@ const Hero = () => {
     <div className='h-screen relative flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundParticles />
       <BackgroundCirle />
-      <img 
-        src={userData.heroUrl} 
+      <Image 
+        src={HeroImg} 
         alt="hero"
         className='relative rounded-full h-40 w-40 mx-auto object-cover'
       />
