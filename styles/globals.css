@@ -35,6 +35,10 @@
     border-left: 0.3rem solid #6358ff;
 }
 
+.div-logo-group > div.div-category-others {
+    border-left: 0.3rem solid #c1c1c8;
+}
+
 .div-logo-group > div > img.box-picture {
     width: 75px;
     height: 75px;
@@ -46,4 +50,3 @@
     border-radius: 1em;
     background: #EAEAEA;
 }
-
