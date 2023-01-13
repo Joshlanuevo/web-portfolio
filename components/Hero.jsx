@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { SocialIcon } from 'react-social-icons';
 
@@ -7,13 +8,24 @@ import BackgroundCirle from './BackgroundCirle';
 import BackgroundParticles from './BackgroundParticles';
 
 const Hero = () => {
+  const router = useRouter();
   const [text] = useTypewriter({
-    words: ['Hello, my name is Josh Ivan', 'and I am a Web Developer'],
+    words: ['Hello, my name is Josh Ivan', 'And I am a Web Developer'],
     loop: true,
     delaySpeed: 2000,
   })
+
+  const handleRouteChange = (url) => {
+    const id = params.get('id');
+    // use the id parameter in your component
+    console.log(id)
+    router.push('/' + url);
+  };
+
+  router.events.on('routeChangeComplete', handleRouteChange);
+
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen relative flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundParticles />
       <BackgroundCirle />
       <img 
