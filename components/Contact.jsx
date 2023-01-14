@@ -1,5 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import userData from '../data/data';
+import { resumeLink } from '../resources/resume';
 
 const Contact = () => {
   return (
@@ -26,7 +28,12 @@ const Contact = () => {
                     </p>
                     <p className="mt-10">lanuevo68@gmail.com</p>
                     <p>+63 9214577200</p>
-                    <button className='p-5 mt-5 uppercase bg-[#000000] text-white rounded text-sm hover:bg-slate-700'>Download my resume</button>
+                    <Link href={resumeLink} target="_blank">
+                        <button 
+                            className='p-5 mt-5 uppercase bg-[#000000] text-white rounded text-sm hover:bg-slate-700'>
+                                Download my resume
+                        </button>
+                    </Link>
                 </header>
             </div>
         </div>
