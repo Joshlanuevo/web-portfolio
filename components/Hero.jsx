@@ -1,30 +1,18 @@
 import React from 'react';
-import { useRouter } from 'next/router';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { SocialIcon } from 'react-social-icons';
 import Image from 'next/image';
 
-import userData from '../data/data'
 import BackgroundCirle from './BackgroundCirle';
 import BackgroundParticles from './BackgroundParticles';
 import HeroImg from '../public/2x2-main.png'
 
 const Hero = () => {
-  const router = useRouter();
   const [text] = useTypewriter({
     words: ['Hello, my name is Josh Ivan', 'And I am a Web Developer'],
     loop: true,
     delaySpeed: 2000,
   })
-
-  const handleRouteChange = (url) => {
-    const id = params.get('id');
-    // use the id parameter in your component
-    console.log(id)
-    router.push('/' + url);
-  };
-
-  router.events.on('routeChangeComplete', handleRouteChange);
 
   return (
     <div className='h-screen relative flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
@@ -35,6 +23,10 @@ const Hero = () => {
         priority
         alt="hero"
         className='relative rounded-full h-40 w-40 mx-auto object-cover'
+        layout="fixed"
+        width={200}
+        height={200}
+        style={{ objectFit: 'cover' }}
       />
       <div className="z-20">
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px] '>web developer</h2>
