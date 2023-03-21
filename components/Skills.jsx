@@ -16,8 +16,8 @@ const Skills = () => {
                 <div className='div-category-backend mt-5 rounded mx-3 p-3 bg-[#EAEAEA] drop-shadow-md'>
                     <div>Backend</div>
                 </div>
-                <div className='div-category-others mt-5 rounded mx-3 p-3 bg-[#EAEAEA] drop-shadow-md'>
-                    <div>Others</div>
+                <div className='div-category-tools mt-5 rounded mx-3 p-3 bg-[#EAEAEA] drop-shadow-md'>
+                    <div>Developer Tools</div>
                 </div>
             </div>
             <div className='div-logo-group flex flex-wrap justify-center mt-4 pb-5'>
@@ -34,20 +34,12 @@ const Skills = () => {
                     <div className="logo-description">Bootstrap</div>
                 </div>
                 <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
-                    <img src='https://cdn.worldvectorlogo.com/logos/material-ui-1.svg' alt='' className='box-picture' />
-                    <div className="logo-description">Material-Ui</div>
-                </div>
-                <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
                     <img src='https://cdn.worldvectorlogo.com/logos/tailwindcss.svg' alt='' className='box-picture' />
                     <div className="logo-description">tailwindcss</div>
                 </div>
                 <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
                     <img src='https://cdn.worldvectorlogo.com/logos/javascript-1.svg' alt='' className='box-picture' />
                     <div className="logo-description">JavaScript</div>
-                </div>
-                <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
-                    <img src='https://cdn.worldvectorlogo.com/logos/typescript.svg' alt='' className='box-picture' />
-                    <div className="logo-description">TypeScript</div>
                 </div>
                 <div className="div-category-frontend m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
                     <img src='https://cdn.worldvectorlogo.com/logos/react-2.svg' alt='' className='box-picture' />
@@ -69,13 +61,9 @@ const Skills = () => {
                     <img src='https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg' alt='' className='box-picture' />
                     <div className="logo-description">MongoDB</div>
                 </div>
-                <div className="div-category-others m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
-                    <img src='https://cdn.worldvectorlogo.com/logos/firebase-1.svg' alt='' className='box-picture' />
-                    <div className="logo-description">Firebase</div>
-                </div>
-                <div className="div-category-others m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
-                    <img src='https://cdn.worldvectorlogo.com/logos/figma-5.svg' alt='' className='box-picture' />
-                    <div className="logo-description">Figma</div>
+                <div className="div-category-tools m-3 p-3 rounded bg-[#EAEAEA] drop-shadow-md">
+                    <img src='https://cdn.worldvectorlogo.com/logos/git-icon.svg' alt='' className='box-picture' />
+                    <div className="logo-description">Git</div>
                 </div>
             </div>
         </div>
