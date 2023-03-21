@@ -25,7 +25,7 @@ const Projects = () => {
                         Tech used:</span> React, NodeJS, Express, MongoDB, Material-UI
                     </p>
                     <Link href="https://mernapp-homework.herokuapp.com/login" target="_blank"> 
-                        <button className='pt-5 pb-5 px-10 m-5 rounded-full bg-[#000000] text-white'>
+                        <button className='pt-5 pb-5 px-10 m-5 rounded bg-[#000000] text-white'>
                             View
                         </button> 
                     </Link>
@@ -43,7 +43,7 @@ const Projects = () => {
                         Tech used:</span> React with styled component and Firebase
                     </p>
                     <Link href="https://j-company-b7e2d.web.app/" target="_blank">
-                        <button className='pt-5 pb-5 px-10 mt-16 mb-10 rounded-full bg-[#000000] text-white'>
+                        <button className='pt-5 pb-5 px-10 mt-16 mb-10 rounded bg-[#000000] text-white'>
                             View
                         </button> 
                     </Link>
@@ -60,7 +60,7 @@ const Projects = () => {
                     <p className='pt-7 px-10 text-center'><span className='font-bold'>
                         Tech used:</span> React, CSS, Firebase</p>
                     <Link href="https://e-portfolio-2022-lanuevo.web.app" target="_blank">
-                        <button className='pt-5 pb-5 px-10 mt-10 mb-10 rounded-full bg-[#000000] text-white'>
+                        <button className='pt-5 pb-5 px-10 mt-10 mb-10 rounded bg-[#000000] text-white'>
                             View
                         </button> 
                     </Link>
