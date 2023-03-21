@@ -11,7 +11,7 @@
 
 @media (max-width: 768px) {
     .about-desc {
-        font-size: 10px;
+        font-size: 16px;
         line-height: normal;
     }
 }
@@ -35,7 +35,7 @@
     border-left: 0.3rem solid #6358ff;
 }
 
-.div-logo-group > div.div-category-others {
+.div-logo-group > div.div-category-tools {
     border-left: 0.3rem solid #c1c1c8;
 }
 
