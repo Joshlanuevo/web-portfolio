@@ -17,6 +17,7 @@ const BackgroundParticles = () => {
 
     return (
         <Particles
+            className='absolute'
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -25,7 +26,7 @@ const BackgroundParticles = () => {
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
+                            enable: false,
                             mode: "push",
                         },
                         onHover: {
